@@ -1,0 +1,83 @@
+        <!--
+        Classwork
+        Create a job recruitment form 
+        It should submit the data to /falseLink.com/submit
+        it should collect the;
+        First name
+        Last name 
+        middle name 
+        User Bio(This should collect a long text)
+        Profile picture
+        Date of birth 
+        Tertiary institution
+        Year of entry 
+        Year of Graduation
+        marital status(use radio or checkboxs); single, married or divorced
+        Preferred car(using the dropdown menu): mazda, toyota, lexus, honda, Mercedes Benz
+        pdf file CV
+        The form should have an indigo border of 2px thickness 
+        text colour should be indigo
+        -->
+
+<!Doctype>
+<html>
+<head>
+<style>
+ form{
+	border: solid 2px indigo;
+	color: indigo;
+}
+</style>
+</head>
+<body>
+<form action="/falseLink.com/submit">
+<fieldset>
+<legend>
+Job Recruitment Form </legend>
+First Name
+<br>
+<input name="username" value="FirstName" type="text">
+Last Name
+<br>
+<input name="lastname" value="lastName" type="text">
+middle Name
+<br>
+UserBIO
+<textarea name="userBio" value="User bio">
+<br>
+Profile Picture
+<input type="file" name="pic">
+<br>
+<input name="middlename" value="middleName" type="text">
+<br>
+<input name="DOB" value="DOB" type="date">
+<br>
+Tertiary Institution
+<input name="Institutions" value="Institution" type="text">
+<br>
+Year of Graduation
+<input name="year" name="Year" type="number">
+<br>
+Marital status
+SIngle <input type="radio" name="SIngle ">
+Married <input type="radio" name="Married">
+Divorced <input type="radio" name="divorced">
+<br>
+Preffered Car
+<select>
+<option value="mazda">
+<option value="toyota">
+<option value="Lexus">
+<option value="honda">
+<option value="Mercedes Benz">
+</select>
+<br>
+Upload CV
+<input type="file" name="cv">
+
+<input type="submit" name="submit">
+</fieldset>
+</form>
+</body>
+</html>
+

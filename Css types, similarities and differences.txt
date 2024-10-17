@@ -1,0 +1,65 @@
+Write 5 differences between;
+                1. Inline and internal Css 
+                2. inline and External css
+                3. Internal and External 
+                Write 5 similarities between;
+                1. Inline and internal Css 
+                2. inline and External css
+                3. Internal and External 
+
+5 differences Inline and Internal css
+Inline css makes use of style attribute and Internal makes use of the style tag
+Inline css all the styling are located in the body tag and Internal all the styling is located in the style tag
+Inline css does not make use of classes and Id, while Internal css makes use of classes and Id 
+Inline css makes use of quotes and Internal css makes use of curly braces 
+Inline css affect only one element, internal css can affect multiple elements
+Inline css is done in the opening tag of the element you want to style while internal css is done in the head tag 
+Inline css makes the work more voluminous while internal makes the work neat and less voluminous 
+It is easier to debug errors in internal css than in inline css 
+Inline css does not allow you do animations, while internal css can create animations and transitions 
+
+5 differences inline and external css 
+External css allows you to style multiple pages while inline css only styles one element
+External css styling is located in a separate css file, while inline css styling is located in the opening tag of the element
+External css needs to be imported into the html file, inline css does not need to be imported into the html page
+External css makes use of curly braces while inline css makes use of quotes 
+External css allows for the usage of classes and id while inline css does not support classes and Id 
+External css is imported with the link located in the head tag, while inline css is located in the opening tag of the element which is located in the body
+Inline css does not allow you do animations, while External css can create animations and transitions
+
+5 differences Internal css and External css
+Internal css makes use of the style tag, while external css makes use of the link tag
+Internal css is located in the style tag of the html document, while external css is located in a separate css file 
+Internal css can only style the page it is defined in, while external css can style multiple pages 
+Internal css does not need to be imported, while External css needs to be imported 
+External css allows us to reduce clutter in our html document because all the styling is done in a different file, Internal css increase clutter because it is stored in the same page 
+
+5 similarities between Inline and internal Css
+They can only style elements in a html page
+They can both style an html element 
+They both use semi colon 
+They both use colon
+They are written in the same html page
+They are both used for quick and easy styling 
+
+
+5 similarities between Inline and External Css
+They can both style an html element 
+They both use semi colon 
+They both use colon
+They can both be used to style background image 
+
+5 similarities between Internal and External Css
+They both use style and Id 
+They both make use of the head tag to function 
+They both use curly braces 
+They both support the use of animation  
+They can both be used to style background image 
+
+
+You can only comment out internal and external css code, you can't comment out inline css code 
+ 
+
+
+
+

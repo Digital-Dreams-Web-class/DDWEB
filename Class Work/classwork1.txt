@@ -1,0 +1,5 @@
+Create a simple html file, your syntax should be correct... close all tags, 
+
+the file should have, head tag, with a title tag nested in it....
+
+the body tag should have,2 paragraphs.. 2 headings h1 & h2, a link and an imagr.. 

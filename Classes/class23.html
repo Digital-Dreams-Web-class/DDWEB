@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Html - Form Attributes 
+        </title>
+        <style>
+            input[value="enter your name"] {
+                width: full;
+            }
+            datalist{
+                background-color: aquamarine;
+            }
+            #students{
+                background-color: aquamarine;  
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div>
+        <form autocomplete novalidate id="Nnaemeka" target="_self">
+            <fieldset>
+                <legend>Henry said "Like What "</legend>
+                Value
+                <input type="text" name="username" value="enter your name">
+                <br>
+                placeholder
+                <input type="text" name="username" placeholder="enter your name" autofocus width="100%">
+                <br>
+                readonly
+                <input type="text" name="username" value="enter your name" readonly >
+                <br>
+                Disabled
+                <input type="text" name="username" value="enter your name" disabled>
+                <br>
+                Size of Characters(5)
+                <input  type="text" name="username" placeholder="enter your name" size="15" autofocus>
+                <br>
+                MaxLength of Characters(5)
+                <input  type="text" name="username" placeholder="enter your name" maxlength="10" autocomplete="on" list="students">
+                <br> 
+                <input type="submit" name="submit" autofocus>
+
+                <input type="image" alt="submit" src="NFTicks.png" name="submit" height="50" width="50">
+
+                <input list="students">
+                <datalist id="students">
+                    <option value="Favour">
+                    <option value="Chisom">
+                    <option value="Emmanuel">
+                    <option value="Micheal">
+                    <option value="EMEKA">
+                </datalist>
+                                    
+            </fieldset>
+        </form>
+        </div>
+        <div>
+            <input type="text" name="lastName" form="Nnaemeka">
+        </div>
+
+
+        <a src="#"> Test Link</a>
+        <script>
+            const Favour = 2;
+
+            let Henry = 5;
+            console.log(Henry= 13);
+            var Odumodu = Black;
+
+            console.log(Odumodu = pink)
+            console.log(Favour = 10);
+        </script>
+    </body>
+</html>

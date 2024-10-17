@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> HTML Images and Tables</title>
+        <style>
+            table {
+                border: 1px solid red;
+                background-image: url("https://c.tenor.com/wn4-WL7n6GkAAAAC/tenor.gif");
+                background-repeat: no-repeat;
+                background-size: cover;
+                color: white;
+                border-collapse: collapse;
+                width: 100%;
+            }
+            td {
+                border: 1px solid skyblue;
+                border-spacing: 50px;
+            }
+            th {
+                border: 5px solid orange;
+                padding: 15px;
+                text-align: right;
+            }
+        </style>
+    </head>
+    <body style="background-image: url('https://images.pexels.com/photos/214574/pexels-photo-214574.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); background-repeat: no-repeat;  background-size: 70% 70%;">
+        <!-- -->        
+        <img src="../NFTicks.png" alt="a picture of NFTicks" style="height:500px; width:700px;">
+        <img src="https://images.pexels.com/photos/1556691/pexels-photo-1556691.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+        " alt="a picture of NFTicks" style="height:500px; width:700px;">
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <a href="class9.html" target="_blank">
+        <img style="float: right;" src="https://c.tenor.com/wn4-WL7n6GkAAAAC/tenor.gif">
+        </a>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <!-- The Picture Element-->
+        <picture>
+            <source media="(min-width: 500px)" srcset="https://images.pexels.com/photos/214574/pexels-photo-214574.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+            <source media="(min-width: 600px)" srcset="https://images.pexels.com/photos/1556691/pexels-photo-1556691.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+            <source media="(min-width: 400px)" srcset="https://c.tenor.com/wn4-WL7n6GkAAAAC/tenor.gif">
+            <img src="../NFTicks.png" alt="somethings">
+        </picture>
+
+        <!-- HTML TABLES -->
+         <table>
+            <tr>
+                <th> S/N</th>
+                <th> NAMES</th>
+                <th> LAPTOP</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td> SomtoChukwu</td>
+                <td> Lenovo </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Emeka</td>
+                <td> Lenovo </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td> NnaEmeka</td>
+                <td> DELL</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Gloria</td>
+                <td>DELL</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>DANIEL and Others</td>
+                <td> HP</td>
+            </tr>
+         </table>
+          
+
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+
+         <table>
+            <caption style="color:black;"> Second class(HP) Users</caption>
+            <tr>
+                <th> S/N</th>
+                <th colspan="2"> HP USERS</th>
+            </tr>
+            <tr>
+                <td rowspan="2">5</td>
+                <td>DANIELs</td>
+                <td> HP</td>
+            </tr>
+            <tr>
+                <td>Shammah</td>
+                <td> HP</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Christian and Others</td>
+                <td> HP</td>
+            </tr>
+         </table>
+    </body>
+</html>

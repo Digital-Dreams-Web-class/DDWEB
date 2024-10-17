@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> MY PORTFOLIO </title>
+        <style>
+             /* body{
+                background-color: #000000;
+            } */
+            .nav{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow:hidden;
+                width: 100%;
+                background-color: rgb(55, 17, 223);
+            }
+
+            .navs a {
+                float: left;
+                padding: 20px;
+                display: block;
+                text-decoration: none;
+                color: white;
+            }
+
+            a:hover {
+                background-color: rgb(130, 216, 228);
+            }
+            img {
+                width: 700px; 
+                height: 500px;
+                display: inline;
+                /* margin-left: 150px;
+                margin-right: 150px; */
+                align-self: center;
+            }
+            h1{
+                text-align: center;
+                font-family: monospace;
+            }
+            p{
+                text-align: center;
+                font-family: monospace;
+                font-size: 30px;
+            }
+            .image{
+                width: 100%;
+                align-items: center;
+                padding-left: 25%;
+                padding-right: 25%;
+            }
+
+        </style>
+    </head>
+    <body>
+        <!--
+            Create a portfolio landing page with a functioning navbar 
+             Using lists create an interactive navbar, which should conntain 4 links(with hover animations);
+             HOME, EXPERIENCE, ABOUT, CONTACT.
+             The HOME page should have a HERO image, and a heading that says "Welcome to my portfolio"
+             The EXPERIENCE page should have a heading that says "My Experience"
+             The ABOUT page should have a heading that says "About Me"
+             The CONTACT page should have a heading that says "Contact Me"
+
+             under the hero image in the landing should have;
+
+             My name is [your name] and I am a web developer in the making, welcome to my porftfolio.
+        -->
+        <div>
+            <ul class="nav">
+                <li class="navs"><a>HOME</a></li>
+                <li class="navs"><a>EXPERIENCE</a></li>
+                <li class="navs"><a>ABOUT ME</a></li>
+                <li class="navs"><a>CONTACT</a></li>
+            </ul>
+        </div>
+        <div width="full">
+            <h1> WELCOME TO MY PORTFOLIO</h1>
+        </div>
+        <div class="image">
+            <img class="hero" src="hero.jpeg">
+        </div>
+        <div>
+            <p>My name is [your name] and I am a web developer in trainig, welcome to my porftfolio.</p>
+        </div>
+    </body>
+</html>

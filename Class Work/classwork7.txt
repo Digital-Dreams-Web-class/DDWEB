@@ -1,0 +1,14 @@
+name: AK
+state or origin: value
+Date of birth: value
+school: value
+blood type: value
+
+give each input the following borders 
+name: dotted left border
+state of origin: groove left border 
+Date of birth: solid left border
+school: outset border 
+blood-type: outset border (dropdown menu of 3 different blood types)
+
+using html form

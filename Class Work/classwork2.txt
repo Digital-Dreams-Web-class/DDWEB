@@ -1,0 +1,40 @@
+Create a simple standard web site
+
+it should have a head tag, title tag, body tag, h1, p, and link tag. 
+
+heading element of h1 with a text of "classwork 2"
+
+A paragraph with ther text "Thank God it's Friday"
+
+A link that points back to class6.html page
+
+link text is "click me"
+title text is "classwork2"
+ 
+
+
+Write this on a piece of paper
+
+syntax 14 marks 
+link 2
+Paragraph 2
+h1 2
+
+total: 20 
+
+Minus 2 for every mistake
+
+<!DOCTYPE html>
+<html>
+<head>
+<title> Classwork2 </title>
+</head>
+<body>
+<h1>classwork 2</h1>
+
+<p title="classroome">Thank God it's Friday</p>
+
+<a href="class6.html"> Click Me </a>
+</body>
+</html>
+

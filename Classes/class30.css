@@ -1,0 +1,61 @@
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+/* p.solid {border-style: solid;} */
+p.double {
+    border-style: double;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: orange;
+}
+p.groove {
+    border: 10px;
+    border-style: groove;
+    /* border-color: top right bottom left ; */
+
+    border-color: green blue red cadetblue ;
+
+}
+p.ridge {
+    border: 10px;
+    /* border-style: ridge; */
+    /* border-style: dashed dotted ridge groove; */
+    /* border-style: dashed dotted groove; */
+    border-style: dashed groove;
+    /* border-top-style: dashed;
+    border-right-style: dotted;
+    border-bottom-style: ridge;
+    border-left-style: groove; */
+    border-top-color: green;
+    border-color: green blue orange magenta;
+}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+
+p.hidden:hover{
+    border: groove 2px green;
+}
+
+p.none:hover{
+    border: groove 2px green;
+}
+
+p.left{
+    background-color: rgb(98, 125, 125);
+    border-left: 4px rgb(35, 108, 117) solid;
+    margin: inherit;
+}
+
+div{
+    border: 3px groove orange;
+    margin: 40px;
+}
+
+/* 
+div p{
+    margin: inherit;
+
+} 
+*/

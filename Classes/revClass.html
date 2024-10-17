@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Revision Class
+        </title>
+        <style>
+            .felix{
+                border: 1px solid green;
+                padding: 14px;
+                background-color:green ;
+                text-decoration: none;
+                color: white;
+            }
+            
+            .felix2{
+                font-size: 100px;
+            }
+            .felix3{
+                font-family: sans-serif;
+            }
+
+            #felix{
+            }
+            video{
+                height: auto;
+                width: 500px;
+                border: 5px solid orange;
+                border-radius: 14px;
+
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="demo"  class="felix"> 
+            HTML LINKS
+        </h1>
+        <a class="felix felix2 felix3" href="#felix"  target="_parent">Click Me </a>
+        <a href="#" class="felix" id="felix">Previous</a>
+        <img  src="../Top.mp4">
+
+        <video width="400" controls>
+            <source src="../Top.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+        <script>
+            document.getElementById("demo").innerHTML = "Hello JavaScript!";
+            </script>
+            
+    </body>
+</html>
