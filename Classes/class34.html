@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Css Layout: Width and max-width, position
+        </title>
+        <style>
+            div.ex1 {
+                width: 1500px;
+                margin: auto;
+                border: 3px solid #73AD21;
+                font-size: 100px;
+                background-color: bisque;
+                z-index: -4;
+                position: relative;
+            }
+            
+            div.ex2 {
+                max-width: 1500px;
+                /* margin: auto; */
+                border: 3px solid #73AD21;
+                font-size: 100px;
+                position: relative;
+                left: 600px;
+                /* right: 0px; */
+                /* top: 100px; */
+                bottom: 150px;
+                background-color: aqua;
+                z-index: -1;
+            } 
+            p.ex3{
+                font-size: 100px;
+                position: absolute;
+                top:50%;
+                /* margin: auto; */
+                width: 100%;
+                right: 0;
+                left: 0;
+                text-align: center;
+                color: white;
+                /* z-index: -1; */
+                background-color: aqua;
+            } 
+            .container {
+                position: relative;
+            }
+            .divA{
+                position: absolute;
+                background-color: pink;
+                width: 200px;
+                height: 200px;
+                top: 0;
+                left: 0;
+            }
+            .divB{
+                position: absolute;
+                width: 200px;
+                height: 200px;
+                background-color: orange;
+                top: 0;
+                right: 0;
+            }
+            .divC{
+                position: absolute;
+                width: 200px;
+                height: 200px;
+                background-color: black;
+                bottom: 0;
+                left: 0;
+            }
+            .divD{
+                position: absolute;
+                width: 200px;
+                height: 200px;
+                background-color: blue;
+                bottom: 0;
+                right: 0;
+            }
+            .divE{
+                position: absolute;
+                width: 200px;
+                height: 200px;
+                top: 45%;
+                right: 45%;
+                background-color: grey;
+                
+            }
+            .divF{
+                position: absolute;
+                width: 100%;
+                height: 1000px;
+                background-color: green;
+            }      
+        </style>
+    </head>
+    <body>
+        <h1> Difference between width and Max-width</h1>
+        <div class="ex1"> Using Width</div>
+        <br>
+        <br>
+        <div class="ex2"> Using Max-width</div>
+
+
+        <h1> CSS- Position </h1>
+        <div class="container">
+            <img src="../somto.jpg" width="100%" height="auto">
+            <p class="ex3"> Somto's Image</p>
+        </div>
+
+
+        <h1> Class work </h1>
+        <p> Create 6 divs div a, div b, div c, div d, div e, div f.
+            give div f, a width of 100% and height of 100%, with background-color 
+            of green and let other divs overlap on div f
+            let div a be positioned to the top left, width & height 200px, 
+            with background-color of pink  
+            let div b be positioned to the top right, width & height 200px, 
+            with background-color of orange
+            let div c be positioned to the bottom left, width & height 200px, 
+            with background-color of black 
+            let div d be positioned to the bottom right, width & height 200px, 
+            with background-color of blue
+            and let div e be positioned at the center of div f, width & height 200px
+            with background-color of grey
+            <div> Div A</div>
+            <div> Div B</div>
+            <div> Div C</div>
+            <div> Div D</div>
+            <div> Div E</div>
+            <div> Div F</div>
+        </p>
+
+        <!-- <div class="container">
+            <div class="divA"> Div A</div>
+            <div class="divB"> Div B</div>
+            <div class="divC"> Div C</div>
+            <div class="divD"> Div D</div>
+            <div class="divE"> Div E</div>
+            <div class="divF"> Div F</div>
+        </div> -->
+
+        <div class="divF">
+            <div class="divA"> Div A</div>
+            <div class="divB"> Div B</div>
+            <div class="divC"> Div C</div>
+            <div class="divD"> Div D</div>
+            <div class="divE"> Div E</div>
+            <!-- <div class="divF"> Div F</div> -->
+        </div>
+    </body>
+</html>
